@@ -5,7 +5,7 @@ async function run() {
 
   if (!distro.length) {
     console.error(
-      "The command is 'node build.sh <distro>'. <distro> was not specified; try running './build.sh ubuntu-lts'."
+      "The command is 'build.sh <distro>'. <distro> was not specified; try running './build.sh ubuntu-lts'."
     );
     Deno.exit(1);
   }
