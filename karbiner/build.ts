@@ -10,7 +10,8 @@ async function run() {
     Deno.exit(1);
   }
 
-  const rulesets: Rule[][] = (await import(`./${distro}/karabiner/src/index.ts`)).default;
+  const rulesets: Rule[][] = (await import(`../${distro}/karabiner/index.ts`))
+    .default;
 
   const output: {
     title: string;

@@ -28,14 +28,18 @@ Use the included [ubuntu-lts/.bash_profile](ubuntu-lts/.bash_profile) - copied f
 ### Change DefaultKeyBindings.dict
 
 macOS application obey user-specific keybindings stored at ~/Library/KeyBindings/DefaultKeyBindings.dict.
-Copy the included DefaultKeyBindings.dict into the directory. This directory ~/Library/KeyBindings may need to be created if it doesn't exist.
+Copy the included <distro>/DefaultKeyBindings.dict into the directory. This directory ~/Library/KeyBindings may need to be created if it doesn't exist.
 
-DefaultKeyBindings.dict sets the following bindings:
+It makes the following bindings:
 
 1. Text Navigation Linux style (which is Control + Cursor keys)
    - Command + Left/Right Arrows = Move cursor by a word left/right.
    - Command + Shift + Left/Right Arrows = Select word left/right.
-
+   - Home to go to the beginning of a line
+   - End to go to the end of a line
+   - Shift + Home to select text up to the beginning of a line
+   - Shift + End to select text up to the end of a line
+   
 ## Customizing Apps
 
 ### System

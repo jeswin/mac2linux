@@ -3,4 +3,8 @@
   "@\UF703" = moveWordRight:;
   "@$\UF702" = moveWordLeftAndModifySelection:;
   "@$\UF703" = moveWordRightAndModifySelection:;
+  "\UF729"  = moveToBeginningOfLine:;
+  "\UF72B"  = moveToEndOfLine:;
+  "$\UF729" = moveToBeginningOfLineAndModifySelection:;
+  "$\UF72B" = moveToEndOfLineAndModifySelection:;
 }
