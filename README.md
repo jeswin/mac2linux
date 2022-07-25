@@ -6,7 +6,7 @@ The goal of this project is to document settings that make macOS mimic Ubuntu LT
 
 Choose one of the following methods:
 1. [Simple approach](Simple.md) - doesn't require installing a keyboard remapping tool
-2. With [Karabiner Elements](Karabiner.md) - for advanced users; requires installing Karabiner Elements
+2. [Advanced approach with Karabiner Elements](Karabiner.md) - for advanced users; requires installing Karabiner Elements
 
 We recommend the Advanced approach for power users, as it gets much closer to the default Linux experience.
 
