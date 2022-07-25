@@ -1,3 +1,9 @@
+export type ToMapping = {
+  key_code: string;
+  lazy?: boolean;
+  modifiers?: string[];
+  halt?: true;
+};
 export type Manipulator = {
   type: "basic";
   from: {
@@ -7,10 +13,8 @@ export type Manipulator = {
       optional?: string[];
     };
   };
-  to: {
-    key_code: string;
-    lazy?: boolean;
-  }[];
+  to?: ToMapping[];
+  to_if_alone?: ToMapping[];
 };
 
 export type Rule = {
