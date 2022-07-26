@@ -59,7 +59,7 @@ It makes the following bindings:
      - Launch Application = Terminal
    - Open Keyboard -> Shortcuts
      - Select Services -> General
-     - Add "Launch Terminal" = Ctrl + ~ OR Ctrl + Alt + T OR whatever
+     - Add "Launch Terminal" = Control + ~ OR Control + Alt + T OR whatever
 
 2. Open Keyboard -> Shortcuts -> App Shortcuts
 
@@ -86,8 +86,8 @@ It makes the following bindings:
 
 1. Open Keyboard -> Shortcuts -> Mission Control
    - Show Desktop = Command + D
-   - Move left a space = Ctrl + Option + Left
-   - Move right a space = Ctrl + Option + Right
+   - Move left a space = Control + Option + Left
+   - Move right a space = Control + Option + Right
 
 ### Finder
 
@@ -108,14 +108,14 @@ It makes the following bindings:
 ## Window management (Rectangle.app)
 
 In Ubuntu/Gnome3 the shortcut is Super + Arrow Keys. But Super is Command on macOS, so we're in a bind here.
-So for now, we'll use Ctrl + Shift + Alt instead of Command. See the Advanced section if you wanna fix it Karabiner.
+So for now, we'll use Control + Shift + Alt instead of Command. See the Advanced section if you wanna fix it Karabiner.
 
 - Install Rectangle https://rectangleapp.com/
 - Open Rectangle.app and set these:
-  - Snap window to Left half = Ctrl + Shift + Alt + Left
-  - Snap window to Right half = Ctrl + Shift + Alt + Right
-  - Maximize = Ctrl + Shift + Alt + Up
-  - Make Smaller - Ctrl + Shift + Alt + Down
+  - Snap window to Left half = Control + Shift + Alt + Left
+  - Snap window to Right half = Control + Shift + Alt + Right
+  - Maximize = Control + Shift + Alt + Up
+  - Make Smaller - Control + Shift + Alt + Down
 
 ## Dock & Menu Bar under System Preferences
 

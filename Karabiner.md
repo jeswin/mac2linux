@@ -47,7 +47,6 @@ It makes the following bindings:
 ### Terminal
 
 1. Let's create a shortcut to launch Terminal
-
    - Open Automator, select New document, then select Quick Actions
      - Select 'Launch Application'
      - Workflow receives "no input" in any application
@@ -81,8 +80,8 @@ It makes the following bindings:
 
 1. Open Keyboard -> Shortcuts -> Mission Control
    - Show Desktop = Command + D
-   - Move left a space = Ctrl + Option + Left
-   - Move right a space = Ctrl + Option + Right
+   - Move left a space = Command + Option + Left
+   - Move right a space = Command + Option + Right
 
 ### Finder
 
@@ -107,10 +106,10 @@ So for now, we'll use Ctrl + Shift + Alt instead of Command. See the Advanced se
 
 - Install Rectangle https://rectangleapp.com/
 - Open Rectangle.app and set these:
-  - Snap window to Left half = Ctrl + Shift + Alt + Left
-  - Snap window to Right half = Ctrl + Shift + Alt + Right
-  - Maximize = Ctrl + Shift + Alt + Up
-  - Make Smaller - Ctrl + Shift + Alt + Down
+  - Snap window to Left half = Command + Shift + Alt + Left
+  - Snap window to Right half = Command + Shift + Alt + Right
+  - Maximize = Command + Shift + Alt + Up
+  - Make Smaller - Command + Shift + Alt + Down
 
 ## Dock & Menu Bar under System Preferences
 
@@ -119,19 +118,18 @@ So for now, we'll use Ctrl + Shift + Alt instead of Command. See the Advanced se
 
 ## Karabiner Config
 
-1. Karabiner installs a new keyboard driver. So you'd need to fix the modifier keys again.
-   - Go to Preferences -> Keyboard -> Modifier Keys.
-   - Select your keyboard and change Caps Lock to Command.
-   - Change Control to Command
-   - Change the Globe/Fn key to Control (to use if you ever need it)
+Let's enable custom modifications.
 
-2. Let's enable custom modifications.
-   - Copy <distro>/mac2linux.json into ~/.config/karabiner/assets/complex_modifications/
-   - Go to Karabiner Elements GUI, and enable all modifications
-   - Changes made via Karabiner
-      - Map Caps Lock to Right Command
-      - Make Super + Arrow Keys work in Rectangle App
-      - Show Launchpad when Super (Left Command) is pressed
+- Copy <distro>/mac2linux.json into ~/.config/karabiner/assets/complex_modifications/
+- Go to Karabiner Elements GUI, and enable all modifications
+
+The following changes are supported:
+  - Map Caps Lock to Right Command
+  - Use Super + Arrow Keys work in Rectangle App
+  - Show Launchpad when Super (Left Command) is pressed
+  - Use Control + C/D/Z in Terminal
+  - Use Control + Shift + C/V for copy paste in Terminal
+  - Use Control + Arrows for text navigation in Terminal
 
 ### Customizing Karabiner Config
 
