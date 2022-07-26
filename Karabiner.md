@@ -87,7 +87,7 @@ It makes the following bindings:
 
 1. Open Keyboard -> Shortcuts -> App Shortcuts
    - Create Finder.app
-   - Go to Folder = Control + L
+   - Go to Folder... = Command + L
 
 ### Visual Studio Code
 
@@ -98,6 +98,8 @@ It makes the following bindings:
    - cursorWordEndRightSelect = Shift + Command + Right
    - editor.action.formatDocument = Shift + Command + I
    - renameFile = F2
+   - Terminal: Copy Selection (workbench.action.terminal.copySelection) = Command + Shift + C
+   - Terminal: Paste into Active Terminal (workbench.action.terminal.paste) = Command + Shift + V
 
 ## Window management (Rectangle.app)
 

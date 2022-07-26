@@ -17,17 +17,17 @@ export type ToMapping =
       halt?: true;
     };
 
+export type ManipulatorCondition = {
+  bundle_identifiers: string[];
+  type: "frontmost_application_if" | "frontmost_application_unless";
+};
+
 export type Manipulator = {
   type: "basic";
   from: FromBinding;
   to?: ToMapping[];
   to_if_alone?: ToMapping[];
-  conditions?: [
-    {
-      bundle_identifiers: string[];
-      type: "frontmost_application_if" | "frontmost_application_unless";
-    }
-  ];
+  conditions?: ManipulatorCondition[];
 };
 
 export type Rule = {
