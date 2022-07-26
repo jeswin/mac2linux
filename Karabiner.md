@@ -80,8 +80,8 @@ It makes the following bindings:
 
 1. Open Keyboard -> Shortcuts -> Mission Control
    - Show Desktop = Command + D
-   - Move left a space = Command + Option + Left
-   - Move right a space = Command + Option + Right
+   - Move left a space = Control + Option + Left
+   - Move right a space = Control + Option + Right
 
 ### Finder
 
