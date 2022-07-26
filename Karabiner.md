@@ -1,6 +1,6 @@
 # The Karabiner Approach
 
-This approach requires installing Karabiner Elements, a keyboard remapping tool. 
+This approach requires installing Karabiner Elements, a keyboard remapping tool.
 If you prefer something simpler, see the [Simple Approach](Simple.md)
 
 You need to install Karabiner Elements from https://karabiner-elements.pqrs.org/
@@ -47,6 +47,7 @@ It makes the following bindings:
 ### Terminal
 
 1. Let's create a shortcut to launch Terminal
+
    - Open Automator, select New document, then select Quick Actions
      - Select 'Launch Application'
      - Workflow receives "no input" in any application
@@ -91,15 +92,17 @@ It makes the following bindings:
 
 ### Visual Studio Code
 
-1. Open Keyboard Shortcuts (Command + Shift + P and type Keyboard Shortcuts)
-   - cursorWordLeft = Command + Left
-   - cursorWordEndRight = Command + Right
-   - cursorWordLeftSelect = Shift + Command + Left
-   - cursorWordEndRightSelect = Shift + Command + Right
-   - editor.action.formatDocument = Shift + Command + I
-   - renameFile = F2
-   - Terminal: Copy Selection (workbench.action.terminal.copySelection) = Command + Shift + C
-   - Terminal: Paste into Active Terminal (workbench.action.terminal.paste) = Command + Shift + V
+Copy <distro>/keybindings.json to ~/Library/Application Support/Code/User/keybindings.json
+
+It makes the following changes:
+- cursorWordLeft = Command + Left
+- cursorWordEndRight = Command + Right
+- cursorWordLeftSelect = Shift + Command + Left
+- cursorWordEndRightSelect = Shift + Command + Right
+- editor.action.formatDocument = Shift + Command + I
+- renameFile = F2
+- Terminal: Copy Selection (workbench.action.terminal.copySelection) = Command + Shift + C
+- Terminal: Paste into Active Terminal (workbench.action.terminal.paste) = Command + Shift + V
 
 ## Window management (Rectangle.app)
 
@@ -126,12 +129,13 @@ Let's enable custom modifications.
 - Go to Karabiner Elements GUI, and enable all modifications
 
 The following changes are supported:
-  - Map Caps Lock to Right Command
-  - Use Super + Arrow Keys work in Rectangle App
-  - Show Launchpad when Super (Left Command) is pressed
-  - Use Control + C/D/Z in Terminal
-  - Use Control + Shift + C/V for copy paste in Terminal
-  - Use Control + Arrows for text navigation in Terminal
+
+- Map Caps Lock to Right Command
+- Use Super + Arrow Keys work in Rectangle App
+- Show Launchpad when Super (Left Command) is pressed
+- Use Control + C/D/Z in Terminal
+- Use Control + Shift + C/V for copy paste in Terminal
+- Use Control + Arrows for text navigation in Terminal
 
 ### Customizing Karabiner Config
 
@@ -139,4 +143,3 @@ The Karabiner config file (mac2linux.json) is auto-generated from scripts writte
 To compile your edits, you need to install `deno` first (with `brew install deno`), and then run `./build-karabiner.sh <distro>`.
 
 Compilation will generate a karabiner config file located at `<distro>/mac2linux.json`.
-

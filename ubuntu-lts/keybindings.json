@@ -1,0 +1,93 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "f2",
+      "command": "renameFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+      "key": "enter",
+      "command": "-renameFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+      "key": "shift+cmd+i",
+      "command": "editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+      "key": "shift+cmd+i",
+      "command": "editor.action.formatDocument.none",
+      "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument.none",
+      "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+      "key": "cmd+left",
+      "command": "cursorWordLeft",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "alt+left",
+      "command": "-cursorWordLeft",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "cmd+right",
+      "command": "cursorWordEndRight",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "alt+right",
+      "command": "-cursorWordEndRight",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+cmd+left",
+      "command": "cursorWordLeftSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+alt+left",
+      "command": "-cursorWordLeftSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+cmd+right",
+      "command": "cursorWordEndRightSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+alt+right",
+      "command": "-cursorWordEndRightSelect",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+cmd+c",
+      "command": "workbench.action.terminal.copySelection",
+      "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+  },
+  {
+      "key": "cmd+c",
+      "command": "-workbench.action.terminal.copySelection",
+      "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+  },
+  {
+      "key": "shift+cmd+v",
+      "command": "workbench.action.terminal.paste",
+      "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+      "key": "cmd+v",
+      "command": "-workbench.action.terminal.paste",
+      "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  }
+]
