@@ -8,7 +8,7 @@ Choose one of the following methods:
 1. [Simple approach](Simple.md) - doesn't require installing a keyboard remapping tool
 2. [Advanced approach with Karabiner Elements](Karabiner.md) - for advanced users; requires installing Karabiner Elements
 
-We recommend the Advanced approach for power users, as it gets much closer to the default Linux experience.
+I recommend the Advanced approach for power users, as it gets much closer to the default Linux experience.
 
 # Limitations
 
