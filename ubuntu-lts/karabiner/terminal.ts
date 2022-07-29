@@ -44,11 +44,61 @@ const controlForCopyPaste: Rule = {
   ),
 };
 
+const homeAndEnd = {
+  type: "basic",
+  description: "Map Home and End to Control A and Control E in Terminal",
+  manipulators: [
+    {
+      type: "basic" as const,
+      from: {
+        key_code: "home",
+      },
+      to: [
+        {
+          key_code: "a",
+          modifiers: ["control"],
+        },
+      ],
+      conditions: [
+        {
+          bundle_identifiers: [
+            "^com\\.apple\\.Terminal$",
+            "^com\\.googlecode\\.iterm2$",
+          ],
+          type: "frontmost_application_if" as const,
+        },
+      ],
+    },
+    {
+      type: "basic" as const,
+      from: {
+        key_code: "end",
+      },
+      to: [
+        {
+          key_code: "e",
+          modifiers: ["control"],
+        },
+      ],
+      conditions: [
+        {
+          bundle_identifiers: [
+            "^com\\.apple\\.Terminal$",
+            "^com\\.googlecode\\.iterm2$",
+          ],
+          type: "frontmost_application_if" as const,
+        },
+      ],
+    },
+  ],
+};
+
 const rules: Rule[] = [
   commandCVZRule,
   commandArrowsRule,
   controlArrowsRule,
   controlForCopyPaste,
+  homeAndEnd,
 ];
 
 export default rules;
