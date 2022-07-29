@@ -1,6 +1,6 @@
 # mac2linux
 
-The goal of this project is to document settings that make macOS mimic Ubuntu LTS + Gnome. PRs welcome for other distros.
+The goal of this project is to document settings that make macOS mimic Ubuntu LTS + Gnome, especially the shortcuts. PRs welcome for other distros.
 
 # Usage
 
