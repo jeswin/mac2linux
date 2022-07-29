@@ -134,7 +134,7 @@
       ]
     },
     {
-      "description": "Mac2Linux 4.1 - Map Command C/V/Z to Control C/V/Z",
+      "description": "Mac2Linux 4.1 - Map Command C/V/Z/R to Control C/V/Z/R",
       "manipulators": [
         {
           "type": "basic",

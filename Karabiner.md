@@ -104,6 +104,9 @@ It makes the following changes:
 - Terminal: Copy Selection (workbench.action.terminal.copySelection) = Command + Shift + C
 - Terminal: Paste into Active Terminal (workbench.action.terminal.paste) = Command + Shift + V
 
+Todos:
+- Command recall (Ctrl + R) isn't working in VSCode
+
 ## Window management (Rectangle.app)
 
 In Ubuntu/Gnome3 the shortcut is Super + Arrow Keys. But Super is Command on macOS, so we're in a bind here.
@@ -131,11 +134,11 @@ Let's enable custom modifications.
 The following changes are supported:
 
 - Map Caps Lock to Right Command
-- Use Super + Arrow Keys work in Rectangle App
+- Super + Arrow Keys for window snapping in Rectangle App
 - Show Launchpad when Super (Left Command) is pressed
-- Use Control + C/D/Z in Terminal
+- Use Control + C/D/Z/R in Terminal
 - Use Control + Shift + C/V for copy paste in Terminal
-- Use Control + Arrows for text navigation in Terminal
+- Use Control + Arrows, and Home/End for text navigation in Terminal
 
 ### Customizing Karabiner Config
 

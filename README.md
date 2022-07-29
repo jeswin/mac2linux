@@ -21,3 +21,4 @@ PRs welcome to fix these limitations
 
 - There may be a bias towards typical right handed usage.
 
+NOTE: This is work in progress!

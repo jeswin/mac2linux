@@ -12,7 +12,7 @@ const conditions = [
 ];
 
 const commandCVZRule: Rule = {
-  description: "Map Command C/V/Z to Control C/V/Z",
+  description: "Map Command C/V/Z/R to Control C/V/Z/R",
   manipulators: ["c", "d", "z", "r"].map((x) =>
     changeModifier(x, ["right_command"], ["left_control"], conditions)
   ),
