@@ -94,6 +94,7 @@ It makes the following bindings:
 1. Open Keyboard -> Shortcuts -> App Shortcuts
    - Create Finder.app
    - Go to Folder = Control + L
+   - Rename = F2
 
 ### Visual Studio Code
 
