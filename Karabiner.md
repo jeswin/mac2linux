@@ -147,3 +147,11 @@ The Karabiner config file (mac2linux.json) is auto-generated from scripts writte
 To compile your edits, you need to install `deno` first (with `brew install deno`), and then run `./build-karabiner.sh <distro>`.
 
 Compilation will generate a karabiner config file located at `<distro>/mac2linux.json`.
+
+## Reducing Screen Transitions and Animations
+
+MacOS screen transitions are slow, and get in the way. Thankfully you can turn it off as follows.
+
+- Open System Preferences -> Accessibility
+  - Display
+  - Check Reduce Motion
